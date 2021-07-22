@@ -1,0 +1,64 @@
+body{
+    background: white;
+    font-family: 'Trebuchet MS' , Arial , sans-serif;
+    color: rgb(47, 53, 53);
+    padding: 0;
+    margin: 0;
+}
+.cnt{
+    
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(new.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 7px solid rgb(47, 53, 53);  
+}
+.cnt h1{
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 90px;
+    color: rgb(47, 53, 53);
+}
+#section{
+    text-align: center;
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.e-mail{
+    /* flex-basis: 32px; */
+    background: rgb(31, 188, 194);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 15px 15px 10px 15px;
+    box-sizing: border-box;
+    margin-left: 20%;
+    transition: 0,5s;
+}
+.e-mail li{
+    list-style-type: none;
+}
+.e-mail:hover{
+    box-shadow: 0 0 20px 0px rgba(3, 107, 133, 0.9);
+}
+.what{
+    flex-basis: 31px;
+    background: rgb(31, 188, 194);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin-right: 30%;
+    transition: 0,5s;
+}
+.what li{ 
+    list-style-type: none;
+}
+.what:hover{
+    box-shadow: 0 0 20px 0px rgba(3, 107, 133, 0.9);
+}

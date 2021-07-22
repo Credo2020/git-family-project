@@ -1,0 +1,63 @@
+body{
+    background: white;
+    font-family: 'Trebuchet MS' , Arial , sans-serif;
+    color: rgb(47, 53, 53);
+    padding: 0;
+    margin: 0;
+}
+.us{
+    
+    min-height: 70vh;
+    width: 100%;
+    background-image: url(Us.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 7px solid rgb(73, 40, 13);  
+}
+.us h1{
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 90px;
+    color: rgb(112, 60, 24);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+.role{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.role h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.role i{
+    color: rgb(88, 49, 21);
+    font-size: 25px;
+}
+.facalties-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facalties-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facalties-col p{
+    padding: 0;
+}
+.facalties-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}

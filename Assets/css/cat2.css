@@ -64,14 +64,16 @@ nav a:hover{
 }
 nav{
     display: flex;
-    padding: 1px 1%;
+    
     justify-content: space-between;
     align-items: center; 
 }
 nav img{
-     width: 150px;
+     width: 200px;
+     margin: 0;
 }
 .nav-links{
+    padding: 1px 1%;
      flex: 1;
      text-align: right;
      margin-top: 0;
@@ -132,7 +134,7 @@ nav img{
     right: 5px;
     bottom: 5px;
     background: rgb(109, 47, 3);
-    border: 1ppx solid #760001;
+    border: 1px solid #760001;
     border-radius: 5px;
     font-size: 18px;
     text-align: center;
@@ -185,8 +187,16 @@ nav img{
     text-align: center;
     width: 20%;
     bottom: 0;
-    margin-left: 30%; background-color: #000;
+    margin-left: 30%; background-color: rgb(56, 28, 3);
 
+}
+.lien a{
+    text-decoration: none;
+    color: seashell;
+}
+.lien i{
+    color: red;
+    
 }
 .footer h2{color: #ffffff;}
 .sociaux{
