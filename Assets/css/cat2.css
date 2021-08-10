@@ -157,12 +157,25 @@ nav img{
         text-align: center;
         
 }
+.pm{
+   /* display: grid;
+   grid-template-columns: 2fr 4fr; */
+   display: flex;
+   margin-left: 12%;
+}
 .colonne{
      position: relative;
-     width: 40%;
+     width: 57%;
      float: left;
     text-align: center;margin: 10px;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #1c1a19;
+}
+.colonne1{
+    width: 33%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px #1c1a19;
 }
 .text{
     position: relative;
@@ -175,11 +188,15 @@ nav img{
     width: 80%;
 }
 .description h2{
-    font-size: 30px;
+    font-size: 40px;
     margin-right: 20%;
     padding-left: 25%;
-    color: rgb(63, 61, 61);
-    border-bottom: 3px solid rgb(63, 29, 5);
+    color: rgb(138, 67, 16);
+    border-bottom: 3px double rgb(94, 60, 36);
+    margin-top: 11%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: rgb(17, 17, 17) 0.1em 0.1em 0.2em;
+    
 }
 .footer{
     clear: left;

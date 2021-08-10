@@ -18,8 +18,8 @@ body{
     border-bottom-left-radius: 10px;
     border-bottom: 7px solid rgb(73, 40, 13);  
 }
-.us h1{
-    font-size: 120px;
+.us1{
+    font-size: 75px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 90px;
     color: rgb(112, 60, 24);
@@ -43,21 +43,39 @@ body{
     color: rgb(88, 49, 21);
     font-size: 25px;
 }
-.facalties-col{
+.role p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bloc{
+    position: center;
+    margin-top: 4%;
+}
+
+.each{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    display: inline-flex;
+    box-shadow: 0px 5px 5px #1c1a19;
 }
-.facalties-col img{
-    width: 100%;
+.each img{
+    width: 30%;
     border-radius: 10px;
+    padding-right: 5%;
 }
-.facalties-col p{
-    padding: 0;
-}
-.facalties-col h3{
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
+/* .each h3{
+    margin-top: 5px;
+    padding-left: 20%; */
+
+ .each p{
+    
+    text-align: center;
+    font-family: initial;
+    margin-top: 8%;
+    font-size: 22px;
+
+
 }

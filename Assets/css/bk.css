@@ -24,4 +24,5 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 19px;
     margin-top: 2%;
+    text-shadow: rgb(156, 116, 88) 0.1em 0.1em 0.2em;
 }
